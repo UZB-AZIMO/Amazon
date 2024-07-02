@@ -1,0 +1,21 @@
+.hoom{
+    padding: 10px 0;
+    background-color:rgb(2, 16, 47);
+    position: relative;
+    &__text{
+        font-size: 16px;
+        font-weight: 300;
+        color: white;
+        cursor: pointer;
+        transition: 1s;
+        &:hover{
+            color: orange;
+        }
+    }
+    &__wrapper{
+        padding: 0 30px;
+        display: flex;
+        overflow: auto;
+        gap: 20px;
+    }
+}

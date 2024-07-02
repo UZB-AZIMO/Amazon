@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./asset/icon amazon_logo.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css">
+    <title>Amazon.com</title>
+</head>
+
+<body style="background-color: rgb(227, 225, 225);">
+    <header class="header" id="header">
+        <div class="container-lg">
+            <nav class="navbar">
+                <img class="navbar__logo" src="./asset/amazon.jpeg" alt="logo">
+                <ul class="navbar__collection">
+                    <li class="navbar__item one">
+                        <a href="#" class="navbar__link">
+                            <span>
+                                Deliver to <br>
+                                <i class="fa-solid fa-location-dot"></i> Uzbekistan</span>
+                        </a>
+
+                </ul>
+                <div class="box">
+                    <select class="one" name="" id="">
+                        <option value="">All</option>
+                        <option value="">Books</option>
+                        <option value="">Baby</option>
+                        <option value="">Deals</option>
+                    </select>
+                    <input class="box__input" type="text" placeholder="Search Amazon">
+                    <button class="box__btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+                </div>
+                <select class="two" style="border: none; background-color: black;color: white;" name="" id="">
+                    <option value="">ENG</option>
+                    <option value=""> RUS</option>
+                    <option value="">UZB</option>
+                </select>
+                <div class="icon__bag">
+                    <a
+                        href="https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Flanguage%3Den_US%26ref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">
+                        <p class="one">Hello, sign in <br>
+                            Account & Lists</p>
+                    </a>
+                    <a
+                        href="https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fyour-orders%2Forders%3F_encoding%3DUTF8%26ref_%3Dnav_orders_first&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_retail_yourorders_us&openid.mode=checkid_setup&language=he_IL&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">
+                        <p class="one">Returns
+                            <br>
+                            & Orders
+                        </p>
+                    </a>
+                    <i class="fa-solid fa-cart-shopping"><span style="font-size: 14px;">cart</span></i>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hoom">
+        <div class="container-lg">
+
+            <div class="hoom__wrapper">
+                <p class="hoom__text">All</p>
+                <a
+                    href="https://www.amazon.com/gp/goldbox?ref_=nav_cs_gb&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522">
+                    <p class="hoom__text">Today's Deals</p>
+                </a>
+                <a
+                    href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice">
+                    <p class="hoom__text">Customer Service</p>
+                </a>
+                <a href="https://www.amazon.com/registries?ref_=nav_cs_registry&ref_=nav_cs_registry">
+                    <p class="hoom__text"> Registry</p>
+                </a>
+                <a href="https://www.amazon.com/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc">
+                    <p class="hoom__text"> Gift Cards</p>
+                    <a
+                        href="https://www.amazon.com/b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell">
+                        <p class="hoom__text"> Sell</p>
+                    </a>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <main>
+
+        <div class="container-lg">
+            <section class="hero">
+                <div class="owl-carousel owl-theme">
+                    <a
+                        href="https://www.amazon.com/s?k=toys&_encoding=UTF8&content-id=amzn1.sym.be1f9daf-4d19-45c4-80a8-9f43dc62cb2d&crid=1HWN103RHTWMX&pd_rd_r=d569bc73-24cb-444b-ba57-8ec0be712773&pd_rd_w=57rYI&pd_rd_wg=XDLcL&pf_rd_p=be1f9daf-4d19-45c4-80a8-9f43dc62cb2d&pf_rd_r=R47HZ6TE0YNNNB30QZHG&sprefix=toys%2Caps%2C195&ref=pd_hp_d_hero_unk">
+                        <img src="./asset/HERO 1.jpg" alt="foto"></a>
+                    <a
+                        href="https://www.amazon.com/s?k=beauty&s=exact-aware-popularity-rank&ds=v1%3AZT6v%2FJBMjurDnqbBIedbwTizYhNIzE2Qivb780ZIMWc&_encoding=UTF8&content-id=amzn1.sym.0044bffe-bf18-49f9-8d38-b2cc8858b52f&crid=2E2YA31C0ZTXE&pd_rd_r=d569bc73-24cb-444b-ba57-8ec0be712773&pd_rd_w=WKZWt&pd_rd_wg=XDLcL&pf_rd_p=0044bffe-bf18-49f9-8d38-b2cc8858b52f&pf_rd_r=R47HZ6TE0YNNNB30QZHG&qid=1686170937&sprefix=beauty%2Caps%2C180&ref=pd_hp_d_hero_unk"><img
+                            src="./asset/HERO 2.jpg" alt="foto">
+                        <a
+                            href="https://www.amazon.com/s?k=kitchen&rh=p_36%3A-5000&_encoding=UTF8&content-id=amzn1.sym.6bd9a83c-3722-4f5c-a531-ccf7a3d8e6a6&crid=3T9EH9JRSQV3Q&pd_rd_r=d569bc73-24cb-444b-ba57-8ec0be712773&pd_rd_w=aVlKD&pd_rd_wg=XDLcL&pf_rd_p=6bd9a83c-3722-4f5c-a531-ccf7a3d8e6a6&pf_rd_r=R47HZ6TE0YNNNB30QZHG&qid=1686341204&rnid=386465011&sprefix=kitchen%2Caps%2C162&ref=pd_hp_d_hero_unk">
+                            <img src="./asset/HERO 3.jpg" alt="foto"> </a>
+                        <a
+                            href="https://www.amazon.com/b/?_encoding=UTF8&node=283155&pd_rd_w=v3kUu&content-id=amzn1.sym.73d958bd-6ca7-46ff-8084-5fcdad211985&pf_rd_p=73d958bd-6ca7-46ff-8084-5fcdad211985&pf_rd_r=R47HZ6TE0YNNNB30QZHG&pd_rd_wg=XDLcL&pd_rd_r=d569bc73-24cb-444b-ba57-8ec0be712773&ref_=pd_hp_d_hero_unk">
+                            <img src="./asset/HERO 4.jpg" alt="foto"> </a>
+                        <a
+                            href="https://www.amazon.com/b/?_encoding=UTF8&node=23508887011&pd_rd_w=ENFMk&content-id=amzn1.sym.35d2e3e7-d6d6-40a8-b160-754a6a92c950&pf_rd_p=35d2e3e7-d6d6-40a8-b160-754a6a92c950&pf_rd_r=R47HZ6TE0YNNNB30QZHG&pd_rd_wg=XDLcL&pd_rd_r=d569bc73-24cb-444b-ba57-8ec0be712773&ref_=pd_hp_d_hero_unk"><img
+                                src="./asset/HERO 5.jpg" alt="foto"> </a>
+
+                </div>
+
+
+            </section>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+            integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+    </main>
+
+    <div class="container">
+        <section class="bag">
+            <div class="bag__wrapper">
+
+                <div class="bag__card">
+                    <p class="bag__title">Gaming accessories</p>
+                    <div class="bag__box">
+                        <div class="box__book">
+                            <img  src="./asset/quloqjin.jpg" alt="foto">
+                            <p class="box__text">
+                                Headsets</p>
+                        </div>
+                        <div class="box__book">
+                            <img src="./asset/klavyatura.jpg" alt="foto">
+                            <p class="box__text">Keyboards</p>
+                        </div>
+                        <div class="box__book">
+                            <img src="./asset/sichqoncha.jpg" alt="foto">
+                            <p class="box__text">
+                                Computer mice</p>
+                        </div>
+                        <div class="box__book">
+                            <img src="./asset/kreslo.jpg" alt="foto">
+                            <p class="box__text">Chairs</p>
+                        </div>
+                    </div>
+                <a href="https://www.amazon.com/b/?_encoding=UTF8&node=23508887011&pd_rd_w=Zw4hH&content-id=amzn1.sym.12129333-2117-4490-9c17-6d31baf0582a&pf_rd_p=12129333-2117-4490-9c17-6d31baf0582a&pf_rd_r=YHW9V8T53Z2GJ52VAM9F&pd_rd_wg=hhmJH&pd_rd_r=a2d807d3-a04f-488a-8fc2-8f694c577f7a&ref_=pd_hp_d_atf_unk"> <p class="bag__item">See more</p>
+                </a>   
+                </div>
+                
+                <div class="bag__card">
+                    <p class="bag__title">Shop deals in Fashion</p>
+                    <div class="bag__box">
+                        <div class="box__book">
+                            <img class="book__img" src="./asset/jens.jpg" alt="foto">
+                            <p class="box__text">
+                                Jeans under $50
+                            </p>
+                        </div>
+                        <div class="box__book">
+                            <img class="book__img" src="./asset/short.jpg" alt="foto">
+                            <p class="box__text">
+                                Tops under $25</p>
+                        </div>
+                        <div class="box__book">
+                            <img class="book__img" src="./asset/form.jpg" alt="foto">
+                            <p class="box__text">
+                            Dresses under $30</p>
+                        </div>
+                        <div class="box__book">
+                            <img class="book__img" src="./asset/bots.jpg" alt="foto">
+                            <p class="box__text">Shoes under $50
+                               </p>
+                        </div>
+                    </div>
+               <a href="https://www.amazon.com/gp/goldbox/?ie=UTF8&ref_=nav_cs_gb&deals-widget=%257B%2522version%2522%253A1%252C%2522viewIndex%2522%253A0%252C%2522presetId%2522%253A%252215E8DB96732AF8CA9C14916141BB1C4C%2522%252C%2522departments%2522%253A%255B%25227147440011%2522%252C%25227192394011%2522%252C%2522679337011%2522%252C%25226358543011%2522%255D%252C%2522sorting%2522%253A%2522FEATURED%2522%257D&pd_rd_w=xPssx&content-id=amzn1.sym.56e14e61-447a-443b-9528-4b285fddeeac&pf_rd_p=56e14e61-447a-443b-9528-4b285fddeeac&pf_rd_r=YHW9V8T53Z2GJ52VAM9F&pd_rd_wg=hhmJH&pd_rd_r=a2d807d3-a04f-488a-8fc2-8f694c577f7a&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522">   <p class="bag__item">             
+                        See all deals</p></a>  
+                </div>
+
+                <div class="bag__card">
+                    <p class="bag__title">Deals in PCs</p>
+                    <div class="bag__box">
+                        <div class="book__img" class="box__img">
+                            <img class="book__img" src="./asset/proseser.jpg" alt="foto">                
+                        </div>                      
+                    </div>
+                <a href="https://www.amazon.com/s?k=computers&rh=p_n_deal_type%3A23566065011&_encoding=UTF8&content-id=amzn1.sym.6afe7900-0834-4d0d-afa0-213431caed72&pd_rd_r=a2d807d3-a04f-488a-8fc2-8f694c577f7a&pd_rd_w=HfBm9&pd_rd_wg=hhmJH&pf_rd_p=6afe7900-0834-4d0d-afa0-213431caed72&pf_rd_r=YHW9V8T53Z2GJ52VAM9F&ref=pd_hp_d_atf_unk">   <p class="bag__item">shop now</p></a> 
+                </div>
+
+                <div class="bag__card">
+                    <p class="bag__title">Refresh your space</p>
+                    <div class="bag__box">
+                        <div class="box__book">
+                            <img class="book__img" src="./asset/suv.jpg" alt="foto">
+                            <p class="box__text">
+                                Dining</p>
+                        </div>
+                        <div class="box__book">
+                            <img class="book__img" src="./asset/home.jpg" alt="foto">
+                            <p class="box__text">Home</p>
+                        </div>
+                        <div class="box__book">
+                            <img class="book__img" src="./asset/sichqoncha.jpg" alt="foto">
+                            <p class="box__text">
+                                Computer mice</p>
+                        </div>
+                        <div class="box__book">
+                            <img class="book__img" src="./asset/kreslo.jpg" alt="foto">
+                            <p class="box__text">Chairs</p>
+                        </div>
+                    </div>
+             <a href="https://www.amazon.com/s?k=home+and+kitchen&_encoding=UTF8&content-id=amzn1.sym.5a1e43ac-8800-488a-812b-a43cf4218174&pd_rd_r=a2d807d3-a04f-488a-8fc2-8f694c577f7a&pd_rd_w=T0ANL&pd_rd_wg=hhmJH&pf_rd_p=5a1e43ac-8800-488a-812b-a43cf4218174&pf_rd_r=YHW9V8T53Z2GJ52VAM9F&ref=pd_hp_d_atf_unk">     <p class="bag__item">See more</p></a>  
+                </div>
+
+                <div class="bag__card">
+                    <p class="bag__title">Amazon Gadget Store</p>
+                    <div class="bag__box">
+                        <div class="book__img" class="box__imgs">
+                            <img class="book__img" src="./asset/iphone.jpg" alt="foto">
+                            <p class="box__text">
+                                Smartphones</p>
+                        </div>
+                        <div class="box__bok">
+                            <img class="book__img" src="./asset/tablets.jpg" alt="foto">
+                            <p class="box__text">Tablets</p>
+                        </div>
+                        <div class="box__bok">
+                            <img class="book__img" src="./asset/laptops.jpg" alt="foto">
+                            <p class="box__text">
+                                Laptops</p>
+                        </div>
+                        <div class="box__bok">
+                            <img class="book__img" src="./asset/tv.jpg" alt="foto">
+                            <p class="box__text">TVs</p>
+                        </div>
+                    </div>
+                   <a href="https://www.amazon.com/s?k=electronics&_encoding=UTF8&content-id=amzn1.sym.061f5f08-3bb1-4c70-8051-5d850a92de53&pd_rd_r=a2d807d3-a04f-488a-8fc2-8f694c577f7a&pd_rd_w=UxE2i&pd_rd_wg=hhmJH&pf_rd_p=061f5f08-3bb1-4c70-8051-5d850a92de53&pf_rd_r=YHW9V8T53Z2GJ52VAM9F&ref=pd_hp_d_atf_unk"><p class="bag__item">
+                        See more from Amazon Gadgets</p></a> 
+                </div>
+
+                <div class="bag__card">
+                    <p class="bag__title">Home décor under $50</p>
+                    <div class="bag__box">
+                        <div class="box__img">
+                            <img  class="book__img" src="./asset/lemb.jpg" alt="foto">                
+                        </div>                      
+                    </div>
+                  <a href="https://www.amazon.com/s?k=home+decor&rh=p_36%3A-5000&_encoding=UTF8&content-id=amzn1.sym.f7def1d9-177b-415d-89b3-9d866650f7d7&pd_rd_r=a2d807d3-a04f-488a-8fc2-8f694c577f7a&pd_rd_w=F0yip&pd_rd_wg=hhmJH&pf_rd_p=f7def1d9-177b-415d-89b3-9d866650f7d7&pf_rd_r=YHW9V8T53Z2GJ52VAM9F&ref=pd_hp_d_atf_unk">  <p class="bag__item">shop now</p></a>
+                </div>
+
+                <div class="bag__card">
+                    <p class="bag__title">Toys under $25</p>
+                    <div class="bag__box">
+                        <div class="box__img">
+                            <img class="book__img" src="./asset/bea.jpg" alt="foto">          
+                        </div>                      
+                    </div>
+                  <a href="https://www.amazon.com/s?k=toys&rh=p_36%3A-2500&_encoding=UTF8&content-id=amzn1.sym.44da4965-9668-4613-bec2-a3a75f0c2ad4&pd_rd_r=a2d807d3-a04f-488a-8fc2-8f694c577f7a&pd_rd_w=itYSp&pd_rd_wg=hhmJH&pf_rd_p=44da4965-9668-4613-bec2-a3a75f0c2ad4&pf_rd_r=YHW9V8T53Z2GJ52VAM9F&ref=pd_hp_d_atf_unk"><p class="bag__item">shop now</p></a>  
+                </div>
+
+                <div class="bag__card">
+                    <p class="bag__title">Fashion trends you like</p>
+                    <div class="bag__box">
+                        <div class="box__book">
+                            <img class="book__img" src="./asset/dresses.jpg" alt="foto">
+                            <p class="box__text">
+                                Dresses</p>
+                        </div>
+                        <div class="box__book">
+                            <img class="book__img" src="./asset/knits.jpg" alt="foto">
+                            <p class="box__text">Knits</p>
+                        </div>
+                        <div class="box__book">
+                            <img class="book__img" src="./asset/kichen.jpg" alt="foto">
+                            <p class="box__text">
+                                Kichen</p>
+                        </div>
+                        <div class="box__book">
+                            <img class="book__img" src="./asset/jewelry.jpg" alt="foto">
+                            <p class="box__text">Jewelry</p>
+                        </div>
+                    </div>
+                 <a href="https://www.amazon.com/s?k=home+decor&rh=p_36%3A-5000&_encoding=UTF8&content-id=amzn1.sym.f7def1d9-177b-415d-89b3-9d866650f7d7&pd_rd_r=a2d807d3-a04f-488a-8fc2-8f694c577f7a&pd_rd_w=F0yip&pd_rd_wg=hhmJH&pf_rd_p=f7def1d9-177b-415d-89b3-9d866650f7d7&pf_rd_r=YHW9V8T53Z2GJ52VAM9F&ref=pd_hp_d_atf_unk"> <p class="bag__item">               Explore moreExplore more</p></a>  
+                </div>
+            </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 100,
+            nav: false,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 1950,
+            stagePadding: 5,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1300: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+
+</body>
+
+</html>

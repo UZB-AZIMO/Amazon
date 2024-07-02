@@ -1,0 +1,114 @@
+.bag{
+    margin-top: -320px;
+    position: absolute;
+    z-index: 33;
+
+    &__box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bag__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .box__text{
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .bag__title{
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 20px;   
+    }
+}
+.bag__card{
+    width: calc(25% - 40px);
+    background-color: white;
+    padding: 10px;
+}
+
+.box__book{
+    width: 50%;
+}
+.bag__item{
+    margin-top: 20px;
+color: darkcyan;
+width: 300px;
+transition: .9s;
+&:hover{
+    color: orange;
+    cursor: pointer;
+}
+.bag__img{
+    width: 100%;
+}
+}
+.bag__imgs{
+    width: 100%;
+}
+.box__bok{
+    width: 33.3%;
+}
+
+
+.book__img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media ( max-width:1200px){
+    .bag{ 
+margin-top: -250px;
+}}
+
+
+@media ( max-width:1150px){
+    .bag{ 
+
+}
+.bag__card{
+    width: calc(50% - 10px);
+}
+}
+
+
+
+
+
+
+@media ( max-width:800px){
+    .bag{ 
+margin-top: -150px;
+}
+.bag__card{
+    width:100%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+@media ( max-width:550px){
+    .bag{ 
+        margin-top:0;
+        position: static;
+    }
+}

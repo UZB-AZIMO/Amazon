@@ -1,0 +1,173 @@
+.header{
+    background-color: black;
+  }
+.navbar{
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    &__collection{
+        margin-top: 10px;
+        display: flex;
+        gap: 30px;
+        
+    }
+    &__item{        
+        list-style: none;
+        color: white;
+        transition: 1s;
+        &:hover{
+            color:orange;
+            cursor: pointer;
+        }
+    }
+    .icon__bag{
+        display: flex;
+        gap: 20px;
+        color: white;
+    }
+    .fa-solid {
+        color: white;
+        transition: 1s;
+        font-size: 20px;
+        &:hover{
+            color:white;
+        }
+    }
+    &__btn{
+        padding: 10px 20px;
+        border: 3px solid white;
+        font-size: 20px;
+        font-weight: bolder;
+        background-color: white;
+        transition: .5s;
+        border-radius: 20px;
+        &:hover{
+color: black;
+border: 3px solid red;
+
+        }
+    }
+}
+
+.navbar__logo{
+    height: 70px;
+    width: 200px;
+}
+
+.box{
+    display: flex;
+    width: 50%;
+    &__input{
+        width: 80%;
+        padding:  5px;
+        font-size: 18px;
+    }
+    &__btn{
+        border: none;
+        padding: 5px 10px;
+        background-color: rgb(255, 166, 0);
+border-radius:  0 5px 5px 0;
+    }
+    .fa-magnifying-glass{
+        color: black;
+    }
+}
+
+.fa-cart-shopping{
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+
+
+
+
+@media ( max-width:1050px){
+    .header{   
+}
+.one{
+    display: none;
+}
+
+.navbar__logo{
+    height: 80px;
+    width: 400px;
+  
+}
+}
+
+
+
+
+
+
+
+@media ( max-width:880px){
+    .header{   
+}
+.navbar__logo{
+    width: 50px;
+}
+.fa-solid {
+    font-size: 18px;
+}
+
+.navbar__logo{
+    height: 100px;
+    width: 90px;
+}
+.box{
+    display: flex;
+    width: 30%;
+    &__input{
+        width: 100%;
+        padding:  5px;
+        font-size: 18px;
+    }
+    &__btn{
+        border: none;
+        padding: 5px 10px;
+        background-color: rgb(255, 166, 0);
+border-radius:  0 5px 5px 0;
+    }
+    .fa-magnifying-glass{
+        color: black;
+    }
+}
+}
+
+
+
+
+
+
+
+@media ( max-width:660px){
+    .header{   
+        .navbar{
+            padding: 10px 5px;
+            justify-content: space-between;
+        }
+        .box{display: none;}
+
+}
+
+
+}
+
+
+
+
+
+
+@media ( max-width:355px){
+    .header{   
+}
+
+.two{
+    display: none;
+}
+}
